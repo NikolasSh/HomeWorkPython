@@ -25,7 +25,6 @@ gather = list()
 for i in range(bush):
     gather.append(garden_bed[i] + garden_bed[i - 1] + garden_bed[i - 2])
 
-
 print(gather)
 print(max(gather))
 
