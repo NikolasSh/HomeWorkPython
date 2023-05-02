@@ -22,9 +22,9 @@ for i in range(bush):
 
 gather = list()
 
-for i in range(bush - 1):
-    gather.append(garden_bed[i] + garden_bed[i - 1] + garden_bed[i + 1])
-gather.append(garden_bed[-2] + garden_bed[-1] + garden_bed[0])
+for i in range(bush):
+    gather.append(garden_bed[i] + garden_bed[i - 1] + garden_bed[i - 2])
+
 
 print(gather)
 print(max(gather))
